@@ -24,6 +24,6 @@ As always, the IT department is here to support you throughout the year, includi
 
 Wishing you all a restful and rejuvenating summer break!
 
-Go Wildcats!
-Ryan 
+Go Wildcats!  
+Ryan   
 Technology Coordinator and Digital Facilitator
