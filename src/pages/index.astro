@@ -1,0 +1,31 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Hello, Wildcats!</h1>
+			<p>
+				Welcome to the CDS Technology Department News and Updates site. This site is a place for us to share
+				updates, news, and information about the technology department at CDS. We hope you find it useful!
+			</p>
+			<p>
+				Do you need help finding our support site with guides and tutorials? Click <a href="https://sites.google.com/carolinaday.org/cds-technology-support/home">here</a> to visit our support site.
+			</p>
+			<p>
+				Don't forget, that you can always send in your questions and/or tech issues to Technology Support. You can get
+				in touch with our support team by emailing <a href="mailto:support@carolinaday.org">support@carolinaday.org</a>.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
